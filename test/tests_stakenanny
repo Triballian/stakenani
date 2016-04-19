@@ -1,0 +1,8 @@
+tests_stakenanny
+#Jody  just started his computer and there are no stakecoin wallets running
+#He set the stakenani.con to the appropreate path and kept the wallet he did not want to run at None
+#He runs the command or batch file python test_stakenany.py on the commandline or link. #the app will provide a batch file for him to use. probably
+# the app states that python3 is required to run this app. This is good as even I can make the mistake of using the wrong python vesion
+# the app states that another intance of stakenani is already runnig as an exit statement would
+# he turns the other inance off. an reruns stakeani
+# stake nany 
