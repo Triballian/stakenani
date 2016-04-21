@@ -26,5 +26,12 @@ Created on Apr 16, 2016
 
 
 '''
+import imp 
+imp.load_source('utils','/Users/Noe/workspace/stakenanny/candiapps/utils.py')
+from utils import getconf
+
+coinssupported = 'turbostake'
+envars = getconf('stakenanny')
+print (envars)
 
 pass

@@ -1,0 +1,395 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"Python35-32"
+			],
+			[
+				"name",
+				"nameMenu"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Noe/workspace/stakenanny"
+	],
+	"file_history":
+	[
+		"/C/Users/Noe/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Noe/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Noe/workspace/jvim/test/test_jvim.py",
+		"/C/Users/Noe/workspace/jvim/src/test_jvim.py",
+		"/C/Users/Noe/workspace/jvim/test/functional_testsbak.py",
+		"/C/Users/Noe/workspace/jvim/test/functional_tests.py",
+		"/C/Users/Noe/workspace/jvim/jvim.conf",
+		"/C/Users/Noe/workspace/jvim/jvim.py",
+		"/C/Users/Noe/workspace/jvim/jvim.bat",
+		"/C/Users/Noe/workspace/build_vim.bat",
+		"/C/Users/Noe/vimfiles/bundle/jedi-vim/jedi_vim.py",
+		"/C/Users/Noe/vimfiles/bundle/ctrlp.vim/readme.md",
+		"/C/Users/Noe/workspace/jvim/test/functional_test.py",
+		"/C/Users/Noe/workspace/jvim/test/f_tests.py",
+		"/C/Users/Noe/workspace/vim/src/blowfish.c",
+		"/C/Users/Noe/vimfiles/bundle/jedi-vim/initialize.py",
+		"/C/Users/Noe/workspace/vim/src/INSTALLpc.txt",
+		"/C/Users/Noe/Desktop/Links/Python Environment/vim environment/nactivate.bat",
+		"/C/Users/Noe/workspace/vim/src/GvimExt/Make_ming.mak",
+		"/C/Users/Noe/Desktop/Links/Python Environment/vim environment/cygnactivate.sh",
+		"/C/Users/Noe/Desktop/Links/Python Environment/vim environment/nactivate.bat.bak",
+		"/C/Users/Noe/workspace/backupcryptowallets/src/main.py",
+		"/C/Users/Noe/workspace/ordmon/ordmon/src/ordmonsel.py",
+		"/C/Users/Noe/workspace/vim/src/Make_ncyg_ming.mak",
+		"/C/Users/Noe/workspace/ordmon/gui/gormonsel.py",
+		"/C/Users/Noe/workspace/domasacal/src/gdomasacal.py",
+		"/C/Users/Noe/workspace/jvim/pyjvim.py",
+		"/C/Users/Noe/workspace/vim/src/if_python3.c",
+		"/C/Users/Noe/workspace/vim/src/if_python.c",
+		"/C/Users/Noe/workspace/backupcryptowallets/src/wcw.conf",
+		"/C/Users/Noe/Desktop/Links/stakecoins/utils/automated back up and encryption/wcw.conf",
+		"/C/Users/Noe/workspace/vim/src/nbuild.h",
+		"/C/Users/Noe/AppData/Local/OpenBazaar/app-1.1.0/lib/net45/resources/OpenBazaar-Server/ob.cfg",
+		"/C/Users/Noe/workspace/vim/src/Make_cyg_ming.mak",
+		"/C/Users/Noe/workspace/vim/src/Make_ming.mak",
+		"/C/Users/Noe/workspace/vim/src/Make_cyg.mak",
+		"/C/Users/Noe/workspace/vim/src/pathdef.c",
+		"/C/Users/Noe/workspace/vim/src/if_python - Copy.c",
+		"/C/Users/Noe/workspace/vim/Makefile",
+		"/C/Users/Noe/workspace/vim/READMEdir/README_w32s.txt",
+		"/C/Users/Noe/workspace/vim/READMEdir/README_dos.txt",
+		"/C/Users/Noe/workspace/vim/READMEdir/README.txt.info",
+		"/C/Users/Noe/workspace/vim/READMEdir/Contents",
+		"/C/Users/Noe/workspace/vim/configure",
+		"/C/Users/Noe/workspace/vim/src/nbuild.bat",
+		"/C/Users/Noe/Desktop/Links/Python Environment/vim environment/cygwnactivate.bat",
+		"/C/Users/Noe/workspace/cygbuild_vim.bat",
+		"/C/Users/Noe/workspace/sygconfigure.cmd",
+		"/C/Users/Noe/workspace/vim/build.cmd",
+		"/C/Users/Noe/_vimrc",
+		"/C/Users/Noe/workspace/vim/configure.cmd",
+		"/C/Users/Noe/workspace/vim/nbuild.bat",
+		"/C/Users/Noe/workspace/vim/build_vim.bat",
+		"/C/tmp/vcvarsall.bat",
+		"/C/Users/Noe/workspace/vim/READMEdir/README_srcdos.txt",
+		"/C/Users/Noe/workspace/vim/README.md",
+		"/C/Users/Noe/workspace/vim/README.txt",
+		"/C/Users/Noe/vimfiles/bundle/jedi-vim/plugin/jedi.vim",
+		"/C/Users/Noe/vimfiles/bundle/jedi-vim/ftplugin/python/jedi.vim",
+		"/C/Users/Noe/vimfiles/autolaod/pathogen.vim",
+		"/C/Program Files (x86)/vim/vim74/README.txt",
+		"/C/Program Files (x86)/vim/vim74/gvimrc_example.vim",
+		"/C/Users/Noe/vimfiles/ftplugin/python_editing.vim",
+		"/C/Program Files (x86)/vim/vim74/evim.vim",
+		"/C/Program Files (x86)/vim/vim74/mswin.vim",
+		"/C/Users/Noe/_viminfo",
+		"/C/Users/Noe/._vimrc.un~",
+		"/C/cygwin64/home/Noe/.bash_profile",
+		"/C/Users/Noe/vimfiles/colors/wombat256mod.vim",
+		"/C/Users/Noe/Desktop/Links/Python Environment/nactivate.bat",
+		"/C/Users/Noe/vimfiles/bundle/vim-powerline/plugin/Powerline.vim",
+		"/C/Users/Noe/vimfiles/bundle/jedi-vim/test/completions.vim",
+		"/C/Users/Noe/vimfiles/colors/luna-term.vim",
+		"/C/Users/Noe/vimfiles/colors/luna.vim",
+		"/C/Program Files (x86)/vim/_vimrc",
+		"/C/Users/Noe/AppData/Roaming/Posex/posex.conf",
+		"/C/Users/Noe/workspace/.git/config",
+		"/C/Users/Noe/workspace/simprad/src/intg.bat",
+		"/C/Users/Noe/workspace/backupcryptowallets/README.md",
+		"/C/Users/Noe/Desktop/Links/stakecoins/utils/automated back up and encryption/main.py",
+		"/C/Users/Noe/workspace/backupcryptowallets/src/wcw.bat",
+		"/C/tmp/python/go.bat",
+		"/C/tmp/python/menuoption.py",
+		"/C/Users/Noe/workspace/ordmon/gui/webrsources/optionmenu preference/menuoption.py",
+		"/C/Users/Noe/AppData/Roaming/DigiCube/digicube.conf",
+		"/C/Users/Noe/Desktop/Links/Python Environment/eclipse/eclipse.ini",
+		"/C/tmp/gordmonsel backup/ordmonsel.py",
+		"/C/Users/Noe/workspace/ordmon/gui/gormosel.bat",
+		"/C/Users/Noe/workspace/cxfreezenviron/src/gordmonsel/gui/convert.bat",
+		"/C/Users/Noe/workspace/cxfreezenviron/src/gordmonsel/gui/gormosel.bat",
+		"/C/Users/Noe/workspace/ordmon/README.md",
+		"/C/Users/Noe/workspace/.gitignore",
+		"/C/Anaconda2/Scripts/activate.bat",
+		"/C/Users/Noe/Desktop/Links/Python Environment/python32.exe.lnk",
+		"/C/Users/Noe/workspace/ordmon/gui/webrsources/nice optionmenu example/optionmenu2.py",
+		"/C/tmp/python/go2.bat",
+		"/C/tmp/python/menuoptionright look.py",
+		"/C/tmp/python/optionimenu2.py",
+		"/C/tmp/digicube/open orders2/C-CEX.com - Crypto-currency exchange _ MultiWallet.html",
+		"/C/Users/Noe/workspace/README.md",
+		"/E/noe2/Desktop/Links/stakecoins/utils/Compound Staking Calculator/cscoinc.py",
+		"/C/Users/Noe/workspace/cxfreezenviron/src/convert.bat",
+		"/C/Users/Noe/AppData/Roaming/HyperStake/hyperstake.conf",
+		"/C/Users/Noe/workspace/ordmon/src/cookies.pkl",
+		"/C/tmp/digicube/open orders/C-CEX.com - Crypto-currency exchange _ MultiWallet.html",
+		"/C/Users/Noe/AppData/Roaming/Microsoft/Windows/Cookies/Low/WMLL1AJE.txt",
+		"/C/Users/Noe/AppData/Roaming/Mozilla/Firefox/Profiles/uqxobPGx.default/SiteSecurityServiceState.txt",
+		"/C/Users/Noe/AppData/Roaming/Mozilla/Firefox/Profiles/uqxobPGx.default/webappsstore.sqlite-wal",
+		"/C/Users/Noe/AppData/Roaming/Microsoft/Windows/Cookies/ECKENCD5.txt",
+		"/C/Users/Noe/AppData/Local/Google/Chrome/User Data/Default/Cookies",
+		"/C/Users/Noe/Downloads/LATEST_RELEASE",
+		"/C/tmp/digicube/(0.00000556) CUBE-BTC_files/amcharts.js",
+		"/C/tmp/digicube/(0.00000556) CUBE-BTC_files/analytics.js",
+		"/C/tmp/digicube/(0.00000556) CUBE-BTC_files/index.css",
+		"/C/tmp/digicube/(0.00000556) CUBE-BTC_files/widgets.js",
+		"/C/tmp/digicube/stakoverflow/python - Script to Extract data from web page - Stack Overflow.html",
+		"/C/tmp/digicube/(0.00000556) CUBE-BTC.html",
+		"/E/noe2/noe/learning python/tek/accumulative compunding/stakecc.py",
+		"/E/noe2/noe/learning python/tek/accumulative compunding/Stake Compounding Compunding.py",
+		"/E/noe2/workspace/compound staking calculator/src/main.py",
+		"/E/tmp/s/y.y",
+		"/C/Users/Noe/workspace/mednotification/main.py",
+		"/C/Users/Noe/workspace/compound staking calculator/src/main.py",
+		"/C/Users/Noe/workspace/backupcryptowallets/src/160317050128.7z",
+		"/C/Users/Noe/workspace/backupcryptowallets/src/wcw.bat - Shortcut.lnk",
+		"/C/Users/Noe/workspace/backupcryptowallets/src/null",
+		"/C/Users/Noe/workspace/backupcryptowallets/src/wcw2.bat",
+		"/C/Users/Noe/workspace/backupcryptowallets/src/wcw - Copy.bat"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"print",
+			"Configinfo",
+			"conffile",
+			"74",
+			"VIM74",
+			"windres",
+			"windress",
+			"python",
+			"cygdrive",
+			"include",
+			"if_python",
+			"cross_compile",
+			"close",
+			"PYTHON=",
+			"python",
+			"features",
+			"ole",
+			"if_ole",
+			"gcc",
+			"pushd",
+			"conceal",
+			"ming",
+			"/",
+			"vim\\src",
+			"pushd",
+			"push",
+			"\\",
+			"init",
+			"sorry",
+			"init",
+			"infect",
+			"call",
+			"S-E",
+			"S-e",
+			"env",
+			"run",
+			"dir",
+			"python",
+			"Rope",
+			"RopeOpenProject",
+			"complete",
+			"rope",
+			"ico",
+			";",
+			"repeat",
+			"reg",
+			"noremap",
+			"noremap /",
+			"two",
+			"futureclass Text Found at: Tkinter\n\nclass Text(Widget, XView, YView):\n    \"\"\"Text widget which can display text in various forms.\"\"\"\n    def __init__(self, master=None, cnf={}, **kw):\n        \"\"\"Construct a text widget with the parent MASTER.\n\n        STANDARD OPTIONS\n\n            background, borderwidth, cursor,\n            exportselection, font, foreground,\n            highlightbackground, highlightcolor,\n            highlightthickness, insertbackground,\n            insertborderwidth, insertofftime,\n            insertontime, insertwidth, padx, pady,\n            relief, selectbackground,\n            selectborderwidth, selectforeground,\n            setgrid, takefocus,\n            xscrollcommand, yscrollcommand,\n\n        WIDGET-SPECIFIC OPTIONS\n\n            autoseparators, height, maxundo,\n            spacing1, spacing2, spacing3,\n            state, tabs, undo, width, wrap,\n\n        \"\"\"\n        Widget.__init__(self, master, 'text', cnf, kw)\n    \n    def bbox(self, *args):\n        \"\"\"Return a tuple of (x,y,width,height) which gives the \n         bounding\n        box of the visible part of the character at the index in \n         ARGS.\"\"\"\n        return self._getints(\n            self.tk.call((self._w, 'bbox') + args)) or None\n    \n    def tk_textSelectTo(self, index):\n        self.tk.call('tk_textSelectTo', self._w, index)\n    \n    def tk_textBackspace(self):\n        self.tk.call('tk_textBackspace', self._w)\n    \n    def tk_textIndexCloser(self, a, b, c):\n        self.tk.call('tk_textIndexCloser', self._w, a, b, c)\n    \n    def tk_textResetAnchor(self, index):\n        self.tk.call('tk_textResetAnchor', self._w, index)\n    \n    def compare(self, index1, op, index2):\n        \"\"\"Return whether between index INDEX1 and index \n         INDEX2 the\n        relation OP is satisfied. OP is one of <, <=, ==, >=, >, \n         or !=.\"\"\"\n        return self.tk.getboolean(self.tk.call(\n                self._w, 'compare', index1, op, index2))\n    \n    def debug(self, boolean=None):\n        \"\"\"Turn on the internal consistency checks of the B-\n         Tree inside the text\n    widget according to BOOLEAN.\"\"\"\n        if boolean is None:\n            return self.tk.getboolean(self.tk.call(self._w, \n             'debug'))\n        self.tk.call(self._w, 'debug', boolean)\n    \n    def delete(self, index1, index2=None):\n        \"\"\"Delete the characters between INDEX1 and INDEX2 \n         (not included).\"\"\"\n        self.tk.call(self._w, 'delete', index1, index2)\n    \n    def dlineinfo(self, index):\n        \"\"\"Return tuple (x,y,width,height,baseline) giving the \n         bounding box\n    and baseline position of the visible part of the line \n     containing\n    the character at INDEX.\"\"\"\n        return self._getints(self.tk.call(self._w, 'dlineinfo', \n         index))\n    \n    def dump(self, index1, index2=None, command=None, \n     **kw):\n        \"\"\"Return the contents of the widget between index1 \n         and index2.\n    \n    The type of contents returned in filtered based on the \n     keyword\n    parameters; if 'all', 'image', 'mark', 'tag', 'text', or \n     'window' are\n    given and true, then the corresponding items are \n     returned. The result\n    is a list of triples of the form (key, value, index). If none \n     of the\n    keywords are true then 'all' is used by default.\n    \n    If the 'command' argument is given, it is called once for \n     each element\n    of the list of triples, with the values of each triple serving \n     as the\n    arguments to the function. In this case the list is not \n     returned.\"\"\"\n        args = []\n        func_name = None\n        result = None\n        if not command:\n            # Never call the dump command without the -\n             command flag, since the\n            # output could involve Tcl quoting and would be a \n             pain to parse\n            # right. Instead just set the command to build a list \n             of triples\n            # as if we had done the parsing.\n            result = []\n            def append_triple(key, value, index, result=result):\n                result.append((key, value, index))\n            \n            command = append_triple\n        try:\n            if not isinstance(command, str):\n                func_name = command = self._register\n                 (command)\n            args += [\"-command\", command]\n            for key in kw:\n                if kw[key]:\n                    args.append(\"-\" + key)\n            \n            args.append(index1)\n            if index2:\n                args.append(index2)\n            self.tk.call(self._w, \"dump\", *args)\n            return result\n        finally:\n            if func_name:\n                self.deletecommand(func_name)\n    \n    ## new in tk8.4\n    def edit(self, *args):\n        \"\"\"Internal method\n\n        This method controls the undo mechanism and\n        the modified flag. The exact behavior of the\n        command depends on the option argument that\n        follows the edit argument. The following forms\n        of the command are currently supported:\n\n        edit_modified, edit_redo, edit_reset, edit_separator\n        and edit_undo\n\n        \"\"\"\n        return self.tk.call(self._w, 'edit', *args)\n    \n    def edit_modified(self, arg=None):\n        \"\"\"Get or Set the modified flag\n\n        If arg is not specified, returns the modified\n        flag of the widget. The insert, delete, edit undo and\n        edit redo commands or the user can set or clear the\n        modified flag. If boolean is specified, sets the\n        modified flag of the widget to arg.\n        \"\"\"\n        return self.edit(\"modified\", arg)\n    \n    def edit_redo(self):\n        \"\"\"Redo the last undone edit\n\n        When the undo option is true, reapplies the last\n        undone edits provided no other edits were done since\n        then. Generates an error when the redo stack is empty.\n        Does nothing when the undo option is false.\n        \"\"\"\n        return self.edit(\"redo\")\n    \n    def edit_reset(self):\n        \"\"\"Clears the undo and redo stacks\n        \"\"\"\n        return self.edit(\"reset\")\n    \n    def edit_separator(self):\n        \"\"\"Inserts a separator (boundary) on the undo stack.\n\n        Does nothing when the undo option is false\n        \"\"\"\n        return self.edit(\"separator\")\n    \n    def edit_undo(self):\n        \"\"\"Undoes the last edit action\n\n        If the undo option is true. An edit action is defined\n        as all the insert and delete commands that are \n         recorded\n        on the undo stack in between two separators. \n         Generates\n        an error when the undo stack is empty. Does nothing\n        when the undo option is false\n        \"\"\"\n        return self.edit(\"undo\")\n    \n    def get(self, index1, index2=None):\n        \"\"\"Return the text from INDEX1 to INDEX2 (not \n         included).\"\"\"\n        return self.tk.call(self._w, 'get', index1, index2)\n    \n    # (Image commands are new in 8.0)\n    def image_cget(self, index, option):\n        \"\"\"Return the value of OPTION of an embedded \n         image at INDEX.\"\"\"\n        if option[:1] != \"-\":\n            option = \"-\" + option\n        if option[-1:] == \"_\":\n            option = option[:-1]\n        return self.tk.call(self._w, \"image\", \"cget\", index, \n         option)\n    \n    def image_configure(self, index, cnf=None, **kw):\n        \"\"\"Configure an embedded image at INDEX.\"\"\"\n        return self._configure(('image', 'configure', index), cnf, \n         kw)\n    \n    def image_create(self, index, cnf={}, **kw):\n        \"\"\"Create an embedded image at INDEX.\"\"\"\n        return self.tk.call(self._w, \"image\", \"create\", index, *\n            self._options(cnf, kw))\n    \n    def image_names(self):\n        \"\"\"Return all names of embedded images in this \n         widget.\"\"\"\n        return self.tk.call(self._w, \"image\", \"names\")\n    \n    def index(self, index):\n        \"\"\"Return the index in the form line.char for INDEX.\"\"\"\n        return str(self.tk.call(self._w, 'index', index))\n    \n    def insert(self, index, chars, *args):\n        \"\"\"Insert CHARS before the characters at INDEX. An \n         additional\n    tag can be given in ARGS. Additional CHARS and tags \n     can follow in ARGS.\"\"\"\n        self.tk.call((self._w, 'insert', index, chars) + args)\n    \n    def mark_gravity(self, markName, direction=None):\n        \"\"\"Change the gravity of a mark MARKNAME to \n         DIRECTION (LEFT or RIGHT).\n        Return the current value if None is given for \n         DIRECTION.\"\"\"\n        return self.tk.call(\n            (self._w, 'mark', 'gravity', markName, direction))\n    \n    def mark_names(self):\n        \"\"\"Return all mark names.\"\"\"\n        return self.tk.splitlist(self.tk.call(\n                self._w, 'mark', 'names'))\n    \n    def mark_set(self, markName, index):\n        \"\"\"Set mark MARKNAME before the character at \n         INDEX.\"\"\"\n        self.tk.call(self._w, 'mark', 'set', markName, index)\n    \n    def mark_unset(self, *markNames):\n        \"\"\"Delete all marks in MARKNAMES.\"\"\"\n        self.tk.call((self._w, 'mark', 'unset') + markNames)\n    \n    def mark_next(self, index):\n        \"\"\"Return the name of the next mark after INDEX.\"\"\"\n        return self.tk.call(self._w, 'mark', 'next', index) or None\n    \n    def mark_previous(self, index):\n        \"\"\"Return the name of the previous mark before \n         INDEX.\"\"\"\n        return self.tk.call(self._w, 'mark', 'previous', index) or \n         None\n    \n    def scan_mark(self, x, y):\n        \"\"\"Remember the current X, Y coordinates.\"\"\"\n        self.tk.call(self._w, 'scan', 'mark', x, y)\n    \n    def scan_dragto(self, x, y):\n        \"\"\"Adjust the view of the text to 10 times the\n        difference between X and Y and the coordinates given \n         in\n        scan_mark.\"\"\"\n        self.tk.call(self._w, 'scan', 'dragto', x, y)\n    \n    def search(self, pattern, index, stopindex=None, \n        forwards=None, backwards=None, exact=None, \n        regexp=None, nocase=None, count=None, \n         elide=None):\n        \"\"\"Search PATTERN beginning from INDEX until \n         STOPINDEX.\n        Return the index of the first character of a match or an\n        empty string.\"\"\"\n        args = [self._w, 'search']\n        if forwards:\n            args.append('-forwards')\n        if backwards:\n            args.append('-backwards')\n        if exact:\n            args.append('-exact')\n        if regexp:\n            args.append('-regexp')\n        if nocase:\n            args.append('-nocase')\n        if elide:\n            args.append('-elide')\n        if count:\n            args.append('-count')\n            args.append(count)\n        if pattern and pattern[0] == '-':\n            args.append('--')\n        args.append(pattern)\n        args.append(index)\n        if stopindex:\n            args.append(stopindex)\n        return str(self.tk.call(tuple(args)))\n    \n    def see(self, index):\n        \"\"\"Scroll such that the character at INDEX is visible.\"\"\"\n        self.tk.call(self._w, 'see', index)\n    \n    def tag_add(self, tagName, index1, *args):\n        \"\"\"Add tag TAGNAME to all characters between \n         INDEX1 and index2 in ARGS.\n        Additional pairs of indices may follow in ARGS.\"\"\"\n        self.tk.call((self._w, 'tag', 'add', tagName, index1) + \n         args)\n    \n    def tag_unbind(self, tagName, sequence, funcid=None):\n        \"\"\"Unbind for all characters with TAGNAME for event \n         SEQUENCE  the\n        function identified with FUNCID.\"\"\"\n        self.tk.call(self._w, 'tag', 'bind', tagName, sequence, '')\n        if funcid:\n            self.deletecommand(funcid)\n    \n    def tag_bind(self, tagName, sequence, func, add=None):\n        \"\"\"Bind to all characters with TAGNAME at event \n         SEQUENCE a call to function FUNC.\n\n        An additional boolean parameter ADD specifies \n         whether FUNC will be\n        called additionally to the other bound function or \n         whether it will\n        replace the previous function. See bind for the return \n         value.\"\"\"\n        return self._bind((self._w, 'tag', 'bind', tagName), \n         sequence, func, add)\n    \n    def tag_cget(self, tagName, option):\n        \"\"\"Return the value of OPTION for tag TAGNAME.\"\"\"\n        if option[:1] != '-':\n            option = '-' + option\n        if option[-1:] == '_':\n            option = option[:-1]\n        return self.tk.call(self._w, 'tag', 'cget', tagName, \n         option)\n    \n    def tag_configure(self, tagName, cnf=None, **kw):\n        \"\"\"Configure a tag TAGNAME.\"\"\"\n        return self._configure(('tag', 'configure', tagName), \n         cnf, kw)\n    \n    tag_config = tag_configure\n    def tag_delete(self, *tagNames):\n        \"\"\"Delete all tags in TAGNAMES.\"\"\"\n        self.tk.call((self._w, 'tag', 'delete') + tagNames)\n    \n    def tag_lower(self, tagName, belowThis=None):\n        \"\"\"Change the priority of tag TAGNAME such that it is \n         lower\n        than the priority of BELOWTHIS.\"\"\"\n        self.tk.call(self._w, 'tag', 'lower', tagName, belowThis)\n    \n    def tag_names(self, index=None):\n        \"\"\"Return a list of all tag names.\"\"\"\n        return self.tk.splitlist(self.tk.call(self._w, 'tag', 'names', \n         index))\n    \n    def tag_nextrange(self, tagName, index1, index2=None):\n        \"\"\"Return a list of start and end index for the first \n         sequence of\n    characters between INDEX1 and INDEX2 which all have \n     tag TAGNAME.\n    The text is searched forward from INDEX1.\"\"\"\n        return self.tk.splitlist(self.tk.call(\n                self._w, 'tag', 'nextrange', tagName, index1, \n                 index2))\n    \n    def tag_prevrange(self, tagName, index1, index2=None):\n        \"\"\"Return a list of start and end index for the first \n         sequence of\n        characters between INDEX1 and INDEX2 which all \n         have tag TAGNAME.\n        The text is searched backwards from INDEX1.\"\"\"\n        return self.tk.splitlist(self.tk.call(\n                self._w, 'tag', 'prevrange', tagName, index1, \n                 index2))\n    \n    def tag_raise(self, tagName, aboveThis=None):\n        \"\"\"Change the priority of tag TAGNAME such that it is \n         higher\n        than the priority of ABOVETHIS.\"\"\"\n        self.tk.call(self._w, 'tag', 'raise', tagName, aboveThis)\n    \n    def tag_ranges(self, tagName):\n        \"\"\"Return a list of ranges of text which have tag \n         TAGNAME.\"\"\"\n        return self.tk.splitlist(self.tk.call(\n                self._w, 'tag', 'ranges', tagName))\n    \n    def tag_remove(self, tagName, index1, index2=None):\n        \"\"\"Remove tag TAGNAME from all characters \n         between INDEX1 and INDEX2.\"\"\"\n        self.tk.call(self._w, 'tag', 'remove', tagName, index1, \n         index2)\n    \n    def window_cget(self, index, option):\n        \"\"\"Return the value of OPTION of an embedded \n         window at INDEX.\"\"\"\n        if option[:1] != '-':\n            option = '-' + option\n        if option[-1:] == '_':\n            option = option[:-1]\n        return self.tk.call(self._w, 'window', 'cget', index, \n         option)\n    \n    def window_configure(self, index, cnf=None, **kw):\n        \"\"\"Configure an embedded window at INDEX.\"\"\"\n        return self._configure(('window', 'configure', index), \n         cnf, kw)\n    \n    window_config = window_configure\n    def window_create(self, index, cnf={}, **kw):\n        \"\"\"Create a window at INDEX.\"\"\"\n        self.tk.call((self._w, 'window', 'create', index) + self.\n         _options(cnf, kw))\n    \n    def window_names(self):\n        \"\"\"Return all names of embedded windows in this \n         widget.\"\"\"\n        return self.tk.splitlist(\n            self.tk.call(self._w, 'window', 'names'))\n    \n    def yview_pickplace(self, *what):\n        \"\"\"Obsolete function, use see.\"\"\"\n        self.tk.call((self._w, 'yview', '-pickplace') + what)",
+			"future",
+			"root",
+			"var",
+			"StringVar",
+			"var",
+			"names",
+			"create",
+			"Label(",
+			"selection",
+			"names",
+			"delete",
+			"#    ",
+			"menu",
+			"selection",
+			"create",
+			"selection",
+			"print",
+			",",
+			"t_ot",
+			"tbody",
+			"tr",
+			"hand",
+			"google",
+			"c",
+			"h1",
+			"rufous-sandbox",
+			"1337",
+			"session",
+			"new",
+			"cube",
+			"1337",
+			"buy",
+			"gp-share",
+			"ap-share",
+			"print",
+			"time"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "stakenanny.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
