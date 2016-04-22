@@ -1,13 +1,13 @@
 # tests
 
-import os
-os.chdir('\\Users\\Noe\\workspace\\stakenanny\\src')
-#import stakenanny.py
+from os import chdir
 
-import imp 
-imp.load_source('stakenanny','stakenanny.py')
+chdir('src')
 import stakenanny
+
+
 import unittest
+
 
 class NewUserTest(unittest.TestCase):
 

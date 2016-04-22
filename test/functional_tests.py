@@ -1,12 +1,12 @@
 #functional_tests
 
-import os
-os.chdir('\\Users\\Noe\\workspace\\stakenanny\\src')
-#import stakenanny.py
+from os import chdir
 
-import imp 
-imp.load_source('stakenanny','stakenanny.py')
+chdir('src')
 import stakenanny
+
+
+
 
 # Jody set the stakenani.conf to the appropriate path and kept the wallets he did not want to run at None
 assert 'turbostake' in stakenanny.envars

@@ -26,15 +26,11 @@ Created on Apr 16, 2016
 
 
 '''
-# import imp
-from sys import exit, path
-path.append('..\\src\\candiapps')
-from utils import getconf
 
-# imp.load_source('utils', 'candiapps/utils.py')
-import candiapps
-# from utils import getconf
-# from candiapps.utils import getconf
+from sys import exit
+
+from candiapps.utils import getconf
+
 
 coinssupported =('turbostake', ' ')
 listcommands=('help', 'quit', 'coinssupported') 
