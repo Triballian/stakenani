@@ -9,7 +9,7 @@ import stakenanny
 
 
 # Jody set the stakenani.conf to the appropriate path and kept the wallets he did not want to run at None
-assert 'turbostake' in stakenanny.envars
+assert 'turbostake' in stakenanny.envars['coinlist']
 # prompt user for input on an infinite loop
 
 # Enter help to list commands

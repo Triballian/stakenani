@@ -27,7 +27,7 @@ Created on Apr 16, 2016
 
 '''
 
-from sys import exit
+from sys import exit, argv
 
 from candiapps.utils import getconf
 
@@ -56,16 +56,21 @@ def commandquit():
     exit(msgexitu)
 
 
-while True:
-    uinput = input('$$')
-    
-    if uinput in listcommands:
-        globals()[str('command' + uinput.lower())]()
-    else:
-        print('\"' + uinput + '\"' + ', is not a valid command. Type help for a list of available commands.')
+
+def start():    
+    while True:
+        uinput = input('$$')
+        
+        if uinput in listcommands:
+            globals()[str('command' + uinput.lower())]()
+        else:
+            print('\"' + uinput + '\"' + ', is not a valid command. Type help for a list of available commands.')
 
 
-    pass    
+        
+
+if __name__ == "__main__":
+    globals()[str(argv[1]).lower()]()   
 
 
 
