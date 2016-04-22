@@ -26,12 +26,50 @@ Created on Apr 16, 2016
 
 
 '''
-import imp 
-imp.load_source('utils','/Users/Noe/workspace/stakenanny/candiapps/utils.py')
+# import imp
+from sys import exit, path
+path.append('..\\src\\candiapps')
 from utils import getconf
 
-coinssupported = 'turbostake'
-envars = getconf('stakenanny')
-print (envars)
+# imp.load_source('utils', 'candiapps/utils.py')
+import candiapps
+# from utils import getconf
+# from candiapps.utils import getconf
 
-pass
+coinssupported =('turbostake', ' ')
+listcommands=('help', 'quit', 'coinssupported') 
+envars = getconf('stakenanny')
+msgexitu = 'Exited at user request!'
+
+def printoutput(list):
+    print('')
+    print('\t', end=' ')
+    for item in list:
+        print(item, end=' ')
+    print('\n')
+
+
+def commandhelp():
+    printoutput(listcommands)
+
+
+def commandcoinssupported():
+    printoutput(coinssupported)
+
+def commandquit():
+    exit(msgexitu)
+
+
+while True:
+    uinput = input('$$')
+    
+    if uinput in listcommands:
+        globals()[str('command' + uinput.lower())]()
+    else:
+        print('\"' + uinput + '\"' + ', is not a valid command. Type help for a list of available commands.')
+
+
+    pass    
+
+
+

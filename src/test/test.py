@@ -1,11 +1,12 @@
 # tests
 
 import os
-os.chdir('\\Users\\Noe\\workspace\\stakenanny\\src')
-#import stakenanny.py
-
+os.chdir('\\Users\\Noe\\workspace\\stakenanny')
+# #import stakenanny.py
+# import src
 import imp 
-imp.load_source('stakenanny','stakenanny.py')
+imp.load_source('stakenanny','\\Users\\Noe\\workspace\\stakenanny\\src\\stakenanny.py')
+# imp.load_source('stakenanny','./stakenanny.py')
 import stakenanny
 import unittest
 
