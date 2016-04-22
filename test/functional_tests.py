@@ -13,7 +13,7 @@ assert 'turbostake' in stakenanny.envars['coinlist']
 # prompt user for input on an infinite loop
 
 # Enter help to list commands
-
+assert 'help' in str(stakenanny.commandhelp)
 # output = stakenanny.commandhelp()
 # assert(output == 'blah', 'quit')
 # provide bad command type help for options message.

@@ -18,8 +18,8 @@ class NewUserTest(unittest.TestCase):
         self.assertEqual(stakenanny.envars['coinlist'], 'turbostake')
 
 
-        #self.assertIn('git.exe', stakenanny.envars['turbo,bottlecaps'])
-        #self.fail('Finish the test!')
+        
+        
     # def test_can_accept_input_and_execute_fuction(self):
 
     #     output = stakenanny.commandhelp()
