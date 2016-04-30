@@ -15,13 +15,26 @@ assert 'turbostake' in stakenanny.envars['coinlist']
 # Enter help to list commands
 assert 'help' in str(stakenanny.commandhelp)
 # output = stakenanny.commandhelp()
-# assert(output == 'blah', 'quit')
+
 # provide bad command type help for options message.
 
 # provide option to quit
+# PID 1 is there a datafolder, if not make one
+# PID 2 is there a sessions.dat file, if not make one
+# PID 3 if there is a sessions.dat make sure it has the proper contents format place current PID into file
+# PID 4 file check to see if it matches current PID
+# 
+#within the stakenannydir in %appdata% create a data folder, in the datafolder create an instance.dat file
+# 
+
+# cehck for cmd file in start up folder, check the contents. If contents are not
+# use regex to make sure the format is correct
+# if there is an entry already
+#
 
 # start automatically durring bootup boot up, provide a delay, give the system a chance to start some processes
-# cehck for cmd file in start up folder, check the contents. If contents are not
+
+# 
 # exact, prompt user "do you want stakenanny to run automatically on startup for
 # optimal wallet startup times in user defined order. ". create cmd file and 
 # pace in startup folder

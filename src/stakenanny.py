@@ -31,11 +31,23 @@ from sys import exit, argv
 
 from candiapps.utils import getconf
 
+from os import path, getenv, mkdir, getpid, system
 
-coinssupported =('turbostake', ' ')
+from re import sub, search
+from ast import literal_eval
+
+coinssupported =('turbostake',)
 listcommands=('help', 'quit', 'coinssupported') 
 envars = getconf('stakenanny')
 msgexitu = 'Exited at user request!'
+
+appdata = getenv('appdata').replace('\\', '/')
+appdirpath = sub(r'[C|c]:|/$', '', appdata) + '/stakenanny'
+appdatadirpath = appdirpath + '/data'
+appdatfile = appdatadirpath + '/session.dat'
+apppidstr = {}
+
+
 
 def printoutput(list):
     print('')
@@ -43,6 +55,13 @@ def printoutput(list):
     for item in list:
         print(item, end=' ')
     print('\n')
+
+def readdatfile():
+    with open(appdatfile, 'r') as f:
+        d = f.read()
+        if not 'PID' in d:
+            return "{'PID': ''}"
+        return d
 
 
 def commandhelp():
@@ -55,9 +74,59 @@ def commandcoinssupported():
 def commandquit():
     exit(msgexitu)
 
+def appdirmakeifno():
+    # PID 1
+    print('this is appdirapth: ' + appdirpath)
+    if not (path.isdir(appdirpath)):
+        mkdir(appdirpath)
+    if not (path.isdir(appdatadirpath)):
+        mkdir(appdatadirpath)
+    return True
+
+def apppid():
+    return getpid()
 
 
-def start():    
+
+def appfilemakeifno():
+    # PID 2
+    if not (path.exists(appdatfile)):
+
+        open(appdatfile, 'w')
+        
+
+def sessionsdatintegrety(contents):
+    print('This is contents : ' + str(contents))
+    return search(r"\'\{PID\'\:\s\d+\}", str(contents))
+
+
+def isappsessioncurrentifnodo():
+    appdirmakeifno()
+    appfilemakeifno()
+    appdatfilecontents = {}
+    #PID 3
+
+    appdatfilecontents = literal_eval(str(readdatfile()))
+    apppidstr['PID'] = apppid()
+    if not sessionsdatintegrety(appdatfilecontents):
+        with open(appdatfile, 'w+') as f:
+            f.write(str(apppidstr))
+    print("this is appdatfilecontents[\'PID\']" + str(appdatfilecontents['PID']))
+    print("this is apppidstr[\'PID\']" + str(apppidstr['PID']))
+
+    if not appdatfilecontents['PID']==apppidstr['PID']:
+        print('\tAnnother stakenanny session is currently running\n')
+        print('\tPlease continue in the stakenanny session that is already running,\n$$')
+        isappkill=input('\tOr type: [stopother] to continue with this session amd end the previous session.')
+        if not isappkill:
+            quit('exit at user request')
+        os.system('tskill ' + appdatfilecontents['PID'])
+        f.write(appidstr)
+
+def commandstart():
+    # appfilemakeifno()
+    isappsessioncurrentifnodo()
+
     while True:
         uinput = input('$$')
         
@@ -65,12 +134,8 @@ def start():
             globals()[str('command' + uinput.lower())]()
         else:
             print('\"' + uinput + '\"' + ', is not a valid command. Type help for a list of available commands.')
-
-
+#check to see if the app has already been stared in this windows session
         
 
 if __name__ == "__main__":
-    globals()[str(argv[1]).lower()]()   
-
-
-
+    globals()["command"+str(argv[1]).lower()]()   
